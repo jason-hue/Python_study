@@ -1,0 +1,34 @@
+type: edu
+files:
+- name: class_definition.py
+  visible: true
+  placeholders:
+  - offset: 30
+    length: 28
+    placeholder_text: assign any value to variable
+    initial_state:
+      length: 28
+      offset: 30
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: 4
+  text: |
+    class MyClass:
+        variable = assign any value to variable
+
+        def foo(self):   # we'll explain self parameter later in task 4
+            print("Hello from function foo")
+
+    my_object = MyClass()  # variable "my_object" holds an object of the class "MyClass" that contains the variable and the "foo" function
+  learner_created: false
+- name: tests.py
+  visible: false
+  text: |
+    from test_helper import run_common_tests
+
+    if __name__ == '__main__':
+        run_common_tests()
+  learner_created: false
+status: Unchecked
+record: -1

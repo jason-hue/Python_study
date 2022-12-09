@@ -1,0 +1,20 @@
+title: Introduction to Python
+language: English
+summary: <p><i><b>Please note:</b> the course will not be updated on this platform
+  anymore. Please consider downloading <a href="https://plugins.jetbrains.com/plugin/16630-introduction-to-python"
+  rel="noopener noreferrer nofollow">Introduction to Python</a> from JetBrains Marketplace
+  if you want to make sure you have the latest version. It’s free and open source
+  just like this one.</i></p>
+programming_language: Python
+content:
+- Introduction
+- Variables
+- Strings
+- Data structures
+- Condition expressions
+- Loops
+- Functions
+- Classes and objects
+- Modules and packages
+- File input output
+mode: Study
